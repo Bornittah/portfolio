@@ -1,0 +1,70 @@
+.menu{
+    height: 15%;
+    position: fixed;
+    width:100%;
+    top: 0;
+    background-color: #111c2e;
+    display: inline;
+    
+}
+.menu h1{
+			/* color: #ffff; */
+            color: #03e9f4;
+			text-shadow: 1px 1px 2px #000000;
+			text-align: center;
+			font-family: "Tw Cen MT", sans-serif;
+			font-size: 20pt;	
+}
+nav{
+    float:right; 
+    margin-right: 50px;
+    margin-top: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding:15px 25px;
+    text-align: center;
+    
+}
+nav ul li a:hover{
+    color: white;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: #03e9f4;
+    font-size: 15pt;
+    display: inline-block;
+}
+
+a:link {
+    color: white;
+    font-size: 14pt;
+}
+
+a:hover {
+    color: #f58a25;
+}
+
+a:active {
+    color: blue;
+}
+
+.toggle-btn{
+    width:35px;
+    position: absolute;
+    right: 80px;
+    top: 40px;
+    display: none;
+}
+.toggle-btn span{
+    display: inline;
+    width: 100%;
+    height: 2px;
+    float: left;
+    margin-bottom: 8px;
+    background-color: #fff;
+
+}

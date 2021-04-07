@@ -1,0 +1,158 @@
+body{
+    background-color: #141414;
+    left: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.page_title{
+    text-align: center;
+    font-size: 20pt;
+    background-color: white;
+    height: 100px;
+    color:#111c2e ;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.welcome-page{
+    background-image: url(../images/portifolio-bg.jpg);
+    height: 650px;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    margin: auto;
+}
+.welcome-title {
+    background-color: rgba(0, 0, 0, 0.753);
+    width: 100%;
+    height: 100%;
+    
+}
+.welcome-title h1 {
+ font-size:45pt;
+ text-align:center;
+ color:#03e9f4;;
+ padding-top:15%;
+ padding-bottom:25%; 
+ line-height:2.0;
+ font:900;
+ text-shadow:0 0 200px #03e9f4;
+}
+.about-us{
+    height: 500px;
+}
+.row{
+    width: 100%;
+     height: fit-content;
+     display: flex;
+     margin:auto;
+     padding-top:50px;
+     font-size:15pt;
+     padding-left: 20px;
+     padding-right: 20px;
+     
+}
+.column{
+    flex: 50%;
+    text-align: justify;
+    color: #fff;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 1.5;
+}
+.column h1{
+    color: #03e9f4;
+    text-align: center;
+}
+.column img{
+    width: 80%;
+    height: 100%;
+    padding-top: 20px;
+}
+/* portfolio */
+.portfolio{
+    height: 500px;
+}
+/* hobbies*/
+.hobbies{
+    height: 500px;
+}
+/* contacts */
+.contacts_info{
+    text-decoration: none;
+    list-style-type:none;
+}
+.contacts_info h4 {
+    padding: 0 0 0 60px;
+    font-size: 14pt;
+    font-weight: 600;
+    /* margin-bottom: 5px; */
+    color: #03e9f4;
+  }
+  .contact .info p {
+    padding: 0 0 0 60px;
+    margin-bottom: 5px;
+    font-size: 12pt;
+  }
+  .contacts_info a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.contacts_info a:hover {
+    color: #03e9f4;
+   
+  }
+  .contacts_info a:hover title {
+    color: #03e9f4;
+   
+  }
+.contacts_info i{
+    font-size: 20px;
+    float: left;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+    border:solid  #fff;
+}
+.contacts_info i:hover {
+    background: #03e9f4;
+    color: #fff;
+   
+  }
+  /* footer */
+  .footer {
+   width: 100%;
+   display: inline;
+   margin:auto;
+   padding-top:50px;
+   padding-bottom:50px;
+   font-size:15pt;
+   margin-left:50px;
+   margin-right: 50px;
+   background-color: #111c2e;
+   color: #fff;
+   /* position: fixed; */
+ }
+ .footer_copyright{
+    text-align: center;
+    float: center;
+    font-size: 12pt;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+  }
+  
+  /* .footer_developer {
+   float: right;
+ }
+ .footer_developer a{
+    text-decoration: none;
+    text-align: right;
+    color: #fff;
+    font-size: 12pt;
+ }
+  .footer_developer a:hover{
+    color:#f06c14;
+  } */
