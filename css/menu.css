@@ -1,9 +1,9 @@
 .menu{
-    height: 15%;
+    height: auto;
     position: fixed;
     width:100%;
     top: 0;
-    background-color: #111c2e;
+    background-color: rgb(8, 49, 25);
     display: inline;
     
 }
@@ -29,12 +29,12 @@ nav ul li{
     
 }
 nav ul li a:hover{
-    color: white;
+    color: rgb(230, 124, 4)
     
 }
 nav ul li a{
     text-decoration: none;
-    color: #03e9f4;
+    color: #fff;
     font-size: 15pt;
     display: inline-block;
 }
@@ -65,6 +65,39 @@ a:active {
     height: 2px;
     float: left;
     margin-bottom: 8px;
-    background-color: #fff;
-
+    background-color: #000;
 }
+
+@media (max-width: 991px) {
+
+    .toggle-btn{
+        display: block;
+    }
+    .menu{
+      height: 95px;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      background-color: #fff;
+      display: inline;
+      margin: 0;
+  }
+  
+    nav{
+     display: none;
+     width: 30%;
+     border-top: 1px solid #fff;
+     margin-top: 30px;
+     padding-top: 10px;
+     background-color: #fff;
+     transition: 0.5s;
+   
+  }
+  nav ul li{
+      padding: 15px 0px;
+      width: 100%;
+  }
+  nav.show{
+      display: block;
+   }
+      }

@@ -13,16 +13,16 @@
             <div class="menu">
                 <div class="toggle-btn" onclick="toggle_menu()">
                     <span></span>
-                    <span></span>
+                    <span></span> 
                     <span></span>
                 </div>
                 <nav id="nav"> 
                     <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">About Me</a></li>
-                        <li><a href="">Portifolio</a></li>
-                        <li><a href="">Hobbies</a></li>
-                        <li><a href="">Contacts</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about-me">About Me</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contacts">Contacts</a></li>
                     </ul>
                   </nav>
                   </div>
@@ -30,17 +30,19 @@
                   <div>
                      <div class="welcome-page">
                          <div class="welcome-title">
-                            <h1>WELCOME <br>TO MY WEBSITE</h1>
+                            <div class="title1">Meet </div>
+                            <div class="title2"> Agasha Bornittah</div>
+                            <div class="title3">Upcoming full stack developer</div>
                          </div>
                      </div>
                   </div>
                   
-                  <div class="about-us">
+                  <div class="about-us" id="about-me">
                       <div class="row">
                           <div class="column">
                               <h1>ABOUT ME</h1>
-                              <p>For the 1 year of working experience that I have, I feel, have not gained enough skills in frontend and back end development. I feel I need more training like this internship at Outbox so that I can be able to learn and face new advanced challenges.
-                                Most times, at my work place I use content management systems like WordPress to design the websites, and as a designer, I don't get to really learn the fundamentals of design since most of the things are done behind the scene.  I would wish to learn how to develop my own front end and back end systems. I am particularly excited for this scholarship opportunity that I will join the team which will help me to become a confident full stack developer.
+                              <p>For the 1 year of working experience that I have in ICT field, I feel, have not gained enough skills in frontend and back end development. I feel I need more training so that I can be able to learn and face new advanced challenges.
+                                Most times, at my work place I use content management systems like WordPress to design the websites, and as a designer, I don't get to really learn the fundamentals of design since most of the things are done behind the scene. This is why i am currently undertaking a full stack development program at outbox.
                                 </p>
                           </div>
                           <div class="column">
@@ -49,41 +51,51 @@
                       </div>
                   </div>
                   <!-- portfolio -->
-                  <div class="portfolio">
+                  <div class="projects" id="projects">
                       <div class="page_title">
                           <h2>Worked on Projects</h2>
                         </div>
                       <div class="row">
                           <div class="column">
-                              hh
+                              <div class="project-box">
+                                  <h3>Web Development</h3>
+                                  <a class="view-projects">View projects</a>
+                              </div>
                           </div>
                           <div class="column">
-                            hh
+                            <div class="project-box">
+                                <h3>Graphics Designing</h3>
+                                <a class="view-projects">View designs</a>
+                            </div>
                         </div>
                         <div class="column">
-                            hh
+                            <div class="project-box">
+                                <h3>Networking</h3>
+                                <a class="view-projects">View projects</a>
+                            </div>
                         </div>
                       </div>
                   </div>
                       <!-- hobbies -->
-                      <div class="hobbies">
+                      <div class="hobbies" id="skills">
                         <div class="page_title">
                             <h2>Hobbies</h2>
                           </div>
-                        <div class="row">
-                            <div class="column">
-                                hh
+                        <div class="hobbies_row">
+                            <div class="hobbies_column">
+                                <img src="images/learning.jpg" class="hobby_image"/>
+                                <div class="overlay"><div class="text">Learning new things</div></div>
                             </div>
-                            <div class="column">
-                              hh
+                            <div class="hobbies_column">
+                                <img src="images/dancing.jpg" class="hobby_image"/>
                           </div>
-                          <div class="column">
-                              hh
+                          <div class="hobbies_column">
+                            <img src="images/chatting.jpg" class="hobby_image"/>
                           </div>
                         </div>
                     </div>
                   <!-- contacts -->
-                  <div class="contacts">
+                  <div class="contacts" id="contacts">
                     <div class="row">
                         <div class="column">
                             <h1>Let's Get In Touch</h1>
@@ -129,8 +141,8 @@
                             </li>
                             <li class="contacts_info">
                                 <i class="icofont-medium"></i>
-                                <h4>Github:</h4>
-                                <a href="https://medium.com/Bornittah/" title="Visit my github">Bornittah</a>
+                                <h4>Medium:</h4>
+                                <a href="https://medium.com/Bornittah/" title="See my posts on Medium">Bornittah</a>
                             </li>
                           </ul>
                       </div>
