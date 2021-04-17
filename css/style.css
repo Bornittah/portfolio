@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+   }
+   
+   html {
+    scroll-behavior: smooth;
+   }
+body{
+    background-color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#0000;
+    /* width:100%;
+    overflow-x: hidden; */
+}
+.page_title{
+    text-align: center;
+    font-size: 20pt;
+    /* background-color: white; */
+    height: 100px;
+    color:#000;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.welcome-page{
+    background-image: url(../images/portifolio-bg3.jpg);
+    height: 650px;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.welcome-title{
+    background-color: rgba(0, 0, 0, 0.568);
+    width: 100%;
+    height: 100%;
+}
+.welcome-title .title1 { 
+ font-size:35pt;
+ text-align:left;
+ color:rgb(230, 124, 4);
+ padding-top:15%;
+ font-weight:400;
+ margin-left: 200px;
+}
+.welcome-title .title2{ 
+    font-size:45pt;
+    text-align:left;
+    color:rgb(255, 255, 255);
+    font-weight:900;
+    margin-left: 200px;
+    border-bottom: 1px solid #fff;
+    width: 35%;
+    padding-top: 20px;
+   
+   }
+   .welcome-title .title3 { 
+    font-size:25pt;
+    text-align:left;
+    color:rgb(230, 124, 4);
+    font-weight:400;
+    margin-left: 200px;
+    padding-top: 40px;
+    font-style: italic;
+   } 
+.about-us{
+    height: auto;
+}
+.row{
+    width: 100%;
+     display: flex;
+     margin:auto;
+     padding-top:50px;
+     font-size:15pt;
+     padding-left: 20px;
+     padding-right: 20px;
+     padding-bottom: 50px;
+     
+}
+.column{
+    flex: 50%;
+    text-align: justify;
+    color:#000;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.column h1{
+    color:#000;
+    text-align: center;
+}
+.column p{
+    color:#000;
+    text-align: justify;
+    padding: 10px;
+    line-height: 1.5;
+}
+.column img{
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+}
+/* portfolio */
+.projects{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 50px;
+    height: auto;
+    width:100%;
+    margin: auto;
+    background-image: url(../images/projects-bg.jpg);
+    /* height: 650px; */
+    background-repeat:no-repeat; 
+    background-size:cover;
+}
+.project-box{
+    border-radius: 15px;
+    background-color: rgb(8, 49, 25);
+    height: auto;
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+    color:#fff
+}
+.project-box a{
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    border-collapse: collapse;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    color:#000;
+    font-size: medium;
+    text-align: center;
+    display: inline-block;
+    font-weight: 700;
+}
+/* skills*/
+.hobbies{
+    height: auto;
+    width: 100%;
+}
+
+.hobby_image{
+    width:100%;
+    height: 100%;
+    border-radius: 10px;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.hobby_image:hover{
+    opacity:0.3;
+}
+.tech-skills{
+    background-image: url(../images/technical-skills.jpg);
+    height:95%;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    border-radius: 10px;
+    display: block;
+}
+.tech-skills ul li{
+   padding-left: 50%;
+   padding-top: 20px;
+    list-style: none;
+    
+}
+.overlay{
+ transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  display: none;
+}
+.overlay:hover{
+    opacity: 1;
+    display: block;
+}
+.text{
+    color:#000;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+/* contacts */
+.contacts_info{
+    text-decoration: none;
+    list-style-type:none;
+}
+.contacts_info h4 {
+    padding: 0 0 0 60px;
+    font-size: 14pt;
+    font-weight: 600;
+    /* margin-bottom: 5px; */
+    color:#000;
+  }
+  .contact .info p {
+    padding: 0 0 0 60px;
+    margin-bottom: 5px;
+    font-size: 12pt;
+  }
+  .contacts_info a{
+    text-decoration: none;
+    color:#000;
+}
+.contacts_info a:hover {
+    color:#000;
+   
+  }
+  .contacts_info a:hover title {
+    color:#000;
+   
+  }
+.contacts_info i{
+    font-size: 20px;
+    float: left;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+    border:solid  #000;
+}
+.contacts_info i:hover {
+    background: #03e9f4;
+    color:#000;
+   
+  }
+  /* footer */
+  .footer {
+   width: 100%;
+   display: inline;
+   margin:auto;
+   padding-top:50px;
+   padding-bottom:50px;
+   font-size:15pt;
+   margin-left:50px;
+   margin-right: 50px;
+   background-color: #111c2e;
+   color:#000;
+   /* position: fixed; */
+ }
+ .footer_copyright{
+    text-align: center;
+    float: center;
+    font-size: 12pt;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+  }
+  @media(max-width:991px){
+    .welcome-page{
+        background-image: url(../images/portifolio-bg3.jpg);
+        height: 650px;
+        background-repeat: no-repeat; 
+        background-size: cover;
+        background-position: center center;
+    }
+    .welcome-title{
+        background-color: rgba(0, 0, 0, 0.568);
+        width: 100%;
+        height: 100%;
+    }
+    .welcome-title .title1 { 
+     font-size:35pt;
+     text-align:left;
+     color:rgb(230, 124, 4);
+     padding-top:15%;
+     font-weight:400;
+     margin-left: 200px;
+    }
+    .welcome-title .title2{ 
+        font-size:45pt;
+        text-align:left;
+        color:rgb(255, 255, 255);
+        font-weight:900;
+        margin-left: 200px;
+        border-bottom: 1px solid #fff;
+        width: 35%;
+        padding-top: 20px;
+       
+       }
+       .welcome-title .title3 { 
+        font-size:25pt;
+        text-align:left;
+        color:rgb(230, 124, 4);
+        font-weight:400;
+        margin-left: 200px;
+        padding-top: 40px;
+        font-style: italic;
+       } 
+    .about-us{
+        height: auto;
+    }
+    .row{
+       flex-direction: column;
+       display: flex;
+    }
+    .column{
+        flex: 50%;
+        text-align: justify;
+        color:#000;
+        padding-left: 10px;
+        padding-right: 10px;
+        line-height: 1.5;
+        padding: 10px;
+    }
+    .projects{
+        height: auto;
+        width: 90%;
+        margin: auto;
+    }
+    .skills{
+        height: auto;
+        width: 80%;
+    }
+    .skills_row{
+        flex-direction: column; 
+    }
+  }
