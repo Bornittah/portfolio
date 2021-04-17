@@ -78,7 +78,11 @@ a:active {
       position: fixed;
       width: 100%;
       top: 0;
+<<<<<<< HEAD
       background-color: rgb(8, 49, 25);
+=======
+      background-color: #fff;
+>>>>>>> 03fc5db86c3314eb27dcf813aa6beffc13ea97c4
       display: inline;
       margin: 0;
   }
@@ -91,13 +95,17 @@ a:active {
      padding-top: 10px;
      background-color: #fff;
      transition: 0.5s;
+<<<<<<< HEAD
      border-radius: 15px;
+=======
+>>>>>>> 03fc5db86c3314eb27dcf813aa6beffc13ea97c4
    
   }
   nav ul li{
       padding: 15px 0px;
       width: 100%;
   }
+<<<<<<< HEAD
   nav ul li a{
     text-decoration: none;
     color:rgb(8, 49, 25);
@@ -117,6 +125,8 @@ nav ul li a:hover {
 a:active {
     color: blue;
 }
+=======
+>>>>>>> 03fc5db86c3314eb27dcf813aa6beffc13ea97c4
   nav.show{
       display: block;
    }
